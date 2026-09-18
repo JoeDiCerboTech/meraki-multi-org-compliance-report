@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets / local configuration
+.env
+.env.*
+*.key
+*.pem
+
+# Generated Meraki compliance output
+Meraki-Compliance-*/
+Meraki-Compliance/
+report.html
+findings.csv
+organizations.csv
+networks.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
